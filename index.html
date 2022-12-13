@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<style>
+@font-face {
+   font-family: stingerBold;
+   src: url(assets/fonts/Stinger-Bold-Italic-trial.ttf);
+}
+@font-face {
+   font-family: stingerFit;
+   src: url(assets/fonts/Stinger-Fit-Italic-trial.ttf);
+}
+@font-face {
+   font-family: stingerWide;
+   src: url(assets/fonts/Stinger-Wide-Light-Italic-trial.ttf);
+}
+@font-face { 
+   font-family: montserratMedium;
+   src: url(assets/fonts/Montserrat-Medium.ttf);
+}
+</style>
+<body> 
+    <div class="grid web">
+        <header class="header">
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item">
+                        <a href="./index.html" class="header-nav__link header-nav__link--active">HOME</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="./infor.html" class="header-nav__link">TAYLOR SWIFT</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="./career.html" class="header-nav__link">CAREER</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="./achievement.html" class="header-nav__link">ACHIEVEMENTS</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="./store.html" class="header-nav__link">STORE</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-text header-text-mobile-home">
+                <p class="header-text-red">red</p>
+                <p class="header-text-light">taylor's version</p>
+                <p class="header-text-bold">available now!</p>
+                <a href="" class="btn btn--red btn-mobile">shop now</a>
+            </div>
+        </header>
+        <main class="section-about">
+            <div class="row  no-gutters">
+                <div class="col c-6 m-12 no-gutters">
+                    <div class="section-about-text">
+                        <p>
+                        Welcome to Taylor Swift web, the oldest and most reliable resource for everything about Taylor Swift. With
+                        thirteen years in the making, we aim to make your search for the latest Taylor news, photos, videos, and
+                        more as
+                        easy as possible.
+                        </p>
+                    </div>
+                </div>
+                <div class="col c-6 m-12 no-gutters">
+                    <div class="section-about-img">
+                        <img src="assets/img/home/section-about.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <section class="section-video">
+            <video controls>
+                <source src="assets/vid/video-header.mp4#t=0.1" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="video-description">
+                TAYLOR SWIFT - ALL TOO WELL: THE SHORT FILM
+            </p>
+        </section>
+        <section class="latest-realease">
+            <p class="latest-realease__title">
+               LATEST RELEASE
+            </p>
+            <div class="row">
+                <div class="col c-4 m-12">
+                    <div class="latest-realease__item">
+                        <img src="assets/img/home/realease-1.png" alt="" class="realease-img">
+                        <div class="realease-des">
+                          <p>FEARLESS</p>  
+                          <p>TAYLOR’S VERSION</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-4 m-12">
+                    <div class="latest-realease__item">
+                        <img src="assets/img/home/realease-2.png" alt="" class="realease-img">
+                        <div class="realease-des">
+                            <p>EVERMORE</p>  
+                            <p>ALBUM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-4 m-12">
+                    <div class="latest-realease__item">
+                        <img src="assets/img/home/realease-3.png" alt="" class="realease-img">
+                        <div class="realease-des">
+                            <p>FOLKLORE</p>  
+                            <p>ALBUM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="row">
+                <div class="col c-6 m-0">
+                   <div class="footer-infor">
+                        <p class="footer-infor__title">
+                            FOR MORE INFORMATION
+                        </p>
+                        <input type="text" placeholder="Email address" class="footer-input">
+                   </div>
+                </div>
+                <div class="col c-6 m-12">
+                    <div class="footer-contact">
+                        <p class="footer-contact__title">
+                            CONTACT ME
+                        </p>
+                        <div class="footer-contact-detail">
+                            <p>Email address: luuhuyen177@gmail.com</p>
+                            <p>Phone number: 0399936456 </p>
+                            <p>Address: Hanoi, Vietnam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col c-12 ">
+                    <div class="copy-right">
+                        Copyright2021@TaylorSwift
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

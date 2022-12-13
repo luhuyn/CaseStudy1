@@ -1,0 +1,102 @@
+.header-nav__list{
+    background-color: #000;
+}
+.header{    
+    background-image: url('../../assets/img/store/header.png');   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0% 10%;
+    height: 100vh;
+    color: var(--white-color);
+    position: relative;
+}
+.header-text{
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    text-align: center;
+}
+.header-name{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+/* SECTION COLLECTION */
+.section-collection{
+    background-color: var(--grey-color);
+}
+.section-collection__heading{
+    color: var(--red-color);
+    font-size: 3rem;
+    padding: 3rem 0;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3.5rem;
+    font-family: stingerBold;
+}
+.section-collection__list{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+.section-collection__item{
+    flex: 0 0 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.collection-item__img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.collection-item__des{
+    width: 90%;
+    text-align: center;
+    margin-top: 2rem;
+}
+.collection-item__price{
+    margin: 1.5rem 0;
+}
+/* SECTION ALBUM */
+.section-album{
+    background-color: #000;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid var(--white-color);
+}
+.section-album__heading{
+    color: var(--red-color);
+    font-size: 3rem;
+    padding: 3rem 0;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3.5rem;
+    font-family: stingerBold;
+}
+.section-album__item{
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.album-item__img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.album-item__des{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 3rem;
+}
+.album-item__price{
+    margin: 0.2rem 0 2rem 0;
+    line-height: 3rem;
+}

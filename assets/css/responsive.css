@@ -1,0 +1,213 @@
+@media only screen and (max-width: 375px){
+        
+    .header-nav__link{
+        font-size: 1rem;
+    }
+    .header-nav__list{
+        display: flex;
+        justify-content: space-around;
+        max-width: 375px;
+        flex-wrap: wrap;
+    }
+    .header{
+        background-image: contain;
+        height: 200px;
+    }
+    /* STORE */
+    .section-collection__list{
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+    .section-collection__item{
+        flex: 0 0 100%;
+    }
+    .section-collection__item{
+        padding-bottom: 2rem;
+    }
+    .section-album{
+        padding-bottom: 0;
+    }
+    .section-album__item{
+        padding-bottom: 3rem;
+    }
+    /* ACHIEVEMENTS */
+    .header-text{
+        bottom: 2%;
+    }
+    .header-name, .header-des{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .header-name{
+        margin-bottom: 0.5rem;
+    }
+    .achievement-detail{
+        font-size: 1rem;
+        padding: 3rem 1.5rem;
+    }
+    .achievement-detail__text{
+        width: 90%;
+    }
+    .sales{
+        flex-wrap: wrap;
+    }
+    .sales__text{
+        flex: 0 0 100%;
+    }
+    .sales__text p{
+        font-size: 1rem;
+        width: 90%;
+    }
+    .sales__img{
+        flex: 0 0 100%;
+    }
+    .reputation{
+        flex-wrap: wrap;
+    }
+    .reputation__text {
+        order: 1;
+        flex: 0 0 100%;
+    }
+
+    .reputation__text p{
+        font-size: 1rem;
+        width: 90%;
+    }
+    .reputation__img{
+        order:2;
+        flex: 0 0 100%;
+    }
+    /* CAREER */
+    .album__title{
+        font-size: 2rem;
+    }
+    .album-item{
+        margin-bottom: 2rem;
+    }
+    .album-item__des{
+        font-size: 1.5rem;
+    }
+    .album-item__img{
+        width: 100%;
+        height: auto;
+    }
+    .section-career__heading{
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+    thead{
+        font-size: 1.5rem;
+    }
+    td{
+        font-size: 1rem;
+    }
+    table{
+        width: 90%;
+    }
+    .tour-item img {
+        background-size: contain;
+        width: 100%;
+        height: auto;
+    }
+    /* INFOR */
+    .infor-detail{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .infor-text{
+        font-size: 1rem;
+        width: 80%;
+    }
+    .infor-detail__text{
+        padding-left: 4rem;
+        font-size: 1.4rem;
+        padding-top: 2rem;
+    }
+    .infor-detail__img{
+        width: 100%;
+        height: auto;
+    }
+    .career__img{
+        width: 100%;
+        height: auto;
+    }
+    .infor-image{
+        background-color: var(--grey-color);
+    }
+    .section-career{
+        height: auto;
+    }
+    .career-image{
+        background-color: #000;
+    }
+    .career__text-title{
+        font-size: 1.8rem;
+    }
+    .career__text{
+        font-size: 1.6rem;
+    }
+    .btn-mobile{
+        padding: 5px 5px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    /* INFOR */
+    .header-text-mobile-home{
+        top: 0;
+    }    
+    .header-text-red{
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+    }
+    .header-text-light,.header-text-bold{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .header-text-bold{
+        margin-bottom: 2rem;
+    }
+    .header-text p:not(:first-child){
+        margin-top: 1rem;
+    }
+    .section-about{
+        height: auto;
+    }
+    .section-about-text{
+        height: auto;
+        padding: 2rem 0;
+    }
+    .section-about-text p{
+        font-size: 1.2rem;
+        
+        width: 80%;
+    }
+    .section-about-img{
+        background-color: #000;
+    }
+    .section-about-img img{
+        width: 100%;
+        height: auto;
+    }
+    .section-video{
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    .video-description{
+        font-size: 1.2rem;
+    }
+    .latest-realease{
+        height: auto;
+    }
+    .latest-realease__title{
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+    .realease-img{
+        width: 100%;
+        height: auto;
+    }
+    .realease-des{
+        font-size: 1.4rem;
+        margin-top: 0.5rem;
+    }
+}

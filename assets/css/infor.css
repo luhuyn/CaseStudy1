@@ -1,0 +1,116 @@
+.header{
+    background-image: url('../../assets/img/infor/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: var(--white-color);
+    position: relative;
+    filter: brightness(90%);
+}
+.header-nav__list{
+    background-color: #000;
+}
+.header-text{
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    text-align: center;
+}
+.header-name{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+.header-des{
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+/* SECTION INFOR */
+.section-infor__text{
+    color: var(--white-color);
+    font-size: 1.4rem;
+    background-color: #000;
+    padding: 3rem 0;
+}
+.infor-text{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.infor-detail{
+    height: 100vh;
+}
+.infor-detail__text{
+    height: 100%;
+    background-color: var(--grey-color);
+    color: #000;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+.infor-detail__text li{
+    list-style-type: disc;
+    margin-top: 1em;
+}
+.infor-detail__text ul{
+    padding-bottom: 3rem;
+}
+.infor-detail__img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100vh;
+}
+/* SECTION CAREER */
+.section-career{
+    height: 100vh;
+}
+.career__text-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    padding: 3rem 0;
+    margin: 0 auto;
+}
+.career__img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.career__text{
+    background-color: #000;
+    height: 100vh;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+.career__text li{
+    list-style-type: disc;
+    margin-top: 1em;
+}
+.career__text ul{
+    padding-left: 6rem;
+    padding-bottom: 3rem;
+}
+/* SECTION LINK */
+.section-link{
+    width: 100%;
+    background-color: var(--grey-color);
+}
+.section-link__title{
+    color: #000;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.8rem;
+    padding: 3rem 0;
+}
+.section-link__btn{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}

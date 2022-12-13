@@ -1,0 +1,124 @@
+.header{
+    background-image: url('../../assets/img/home/header.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.header-nav__link{
+    color: var(--white-color);
+    font-size: 1.6rem;
+}
+.header-nav__list{
+    display: flex;
+    justify-content: space-around;
+}
+.header-nav__item{
+    margin-top: 2.5rem;
+}
+.header-nav__link--active{
+    font-weight: bold;  
+}
+.header-text{
+    color: var(--white-color);
+    text-transform: uppercase;
+    top: 10%;
+    position: relative;
+    left: 50%;
+}
+.header-text-red{
+    font-family: stingerFit;
+    color: var(--red-color);
+    font-size: 15rem;
+    line-height: 15rem;
+}
+.header-text-light{
+    font-size: 5rem;
+    font-family: stingerLight;
+    line-height: 5rem;
+}
+.header-text-bold{
+    font-size: 5rem;
+    font-family: stingerBold;
+    margin-bottom: 5rem;
+    line-height: 5rem;
+}
+.header-text p:not(:first-child){
+    margin-top: 3rem;
+}
+/* SECTION ABOUT */
+.section-about{
+    height: 100vh;
+}
+.section-about-text{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-color);
+    color: var(--black-color);
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.section-about-text p{
+    width: 60%;
+    text-align: justify;
+}
+.section-about-img img{
+    object-fit: contain;
+    object-position: center;
+    height: 100vh;
+    width: auto;
+}
+/* SECTION VIDEO */
+.section-video{
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-video video{
+    display: block;
+    width: 70%;
+    height: auto;
+    padding-top: 2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.video-description{
+    font-size: 1.6rem;
+    text-align: center;
+    flex: 0 0 100%;
+    color: var(--white-color);
+}
+/* SECTION REALEASE*/
+.latest-realease{
+    font-weight: bold;
+    height: 100vh;
+    background-color: var(--grey-color);
+}
+.latest-realease__title{
+    color: var(--red-color);
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    font-family: stingerBold;
+}
+.latest-realease__item{
+    text-align: center;
+}
+.realease-img{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
+.realease-des{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: var(--black-color);
+    font-weight: bold;
+}

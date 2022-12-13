@@ -1,0 +1,128 @@
+.header-nav__list{
+    background-color: #000;
+}
+.header{
+    background-image: url('../../assets/img/career/header.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: var(--white-color);
+    position: relative;
+}
+.header-text{
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    text-align: center;
+}
+.header-name{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+.header-des{
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: bold;
+}
+/* ALBUM */
+.section-album{
+    color: #000;
+    font-weight: bold;
+    background-color: var(--grey-color);
+}
+.album__title{
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 4rem 0;
+}
+.album-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.album-item__img{
+    width: 30rem;
+    height: 30rem;
+    object-fit: contain;
+}
+.album-item__des{
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+}
+/* SECTION TOUR */
+.section-tour{
+    background-color: var(--red-color);
+}
+.section-tour__heading{
+    color: var(--white-color);
+    font-size: 3.5rem;
+    padding: 4rem 0;
+    text-align: center;
+}
+.tour-list{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+.tour-item {
+    margin-bottom: 1rem;
+}
+.tour-item img {
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% -3%;
+
+}
+.tour-item:nth-child(odd){
+    margin-right: 1.5rem;
+}
+.tour-item-3{
+    flex: 0 0 30%;
+}
+.tour-item-4{
+    flex: 0 0 40%;
+}
+/* SECTION CAREER */
+.section-career{
+    background-color: var(--grey-color);
+    padding-bottom: 4rem;
+}
+.section-career__heading{
+    color: var(--red-color);
+    font-size: 3.5rem;
+    padding: 4rem 0;
+    text-align: center;
+}
+#table-career{
+    color: #000;
+    margin: 0 auto; 
+}
+thead{
+    font-size: 1.8rem;
+}
+th, td{
+    text-align: center;
+    padding: 1rem;
+}
+td{
+    font-size: 1.4rem;
+}
+table {
+    border-collapse: collapse;
+  }
+  
+table tr, td, th {
+    border: 1px solid var(--red-color);
+}
+
+  
+ 
