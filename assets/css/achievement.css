@@ -68,9 +68,6 @@
 .reputation{
     display: flex;
 }
-.reputation__text{
-    flex: 0 0 50%;
-}
 .reputation__img{
     flex: 0 0 50%;
     width: 50%;
